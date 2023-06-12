@@ -1,0 +1,24 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "useful scripts",
+  "main": "bin/SQS-send.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Karen Etulain",
+  "license": "ISC",
+  "bin": {
+    "hello": "./bin/index.js",
+    "SQS-send": "./bin/SQS-send.js",
+    "SQS-get": "./bin/SQS-get.js",
+    "SQS-delete": "./bin/SQS-delete.js",
+    "SQS-purge": "./bin/SQS-purge.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1181.0",
+    "chalk": "2.4",
+    "dotenv": "^16.0.1",
+    "yargs": "13.2"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "useful scripts",
+  "main": "bin/SQS-send.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Karen Etulain",
+  "license": "ISC",
+  "bin": {
+    "hello": "./bin/index.js",
+    "S3-getObject": "./bin/S3-getObject.js",
+    "S3-getObjectAttributes": "./bin/S3-getObjectAttributes.js",
+    "S3-listMultipartUploads": "./bin/S3-listMultipartUploads.js",
+    "S3-abortMultipartUpload": "./bin/S3-abortMultipartUpload.js",
+    "S3-clearMultipartUploads": ".bin/S3-clearMultipartUploads.js",
+    "S3-putObject": "./bin/S3-putObject.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1181.0",
+    "chalk": "2.4",
+    "dotenv": "^16.0.1",
+    "yargs": "13.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.26.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.4.0",
+    "eslint-plugin-promise": "^6.1.1"
+  }
+}
